@@ -70,7 +70,7 @@ function watchTimer() {
             stopwatchMinutes.textContent++
             stopwatchSeconds.textContent = 0
         }
-    }, 20)
+    }, 15)
 }
 stopwatchBtn.addEventListener("click", () => {
     if (stopwatchBtn.textContent == "start") {
