@@ -84,7 +84,7 @@ stopwatchBtn.addEventListener("click", () => {
     } else if (stopwatchBtn.textContent == "clear") {
         stopwatchMinutes.textContent = 0
         stopwatchSeconds.textContent = 0
-        stopwatchMinutes = 0
+        stopwatchMseconds.textContent = 0
         stopwatchBtn.textContent = "start"
         tabsLinkSpan.classList.remove("active_clear")
         tabsLinkSpan.classList.remove("active")
